@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+
+    </mj-attributes>
+    <mj-style inline="inline">
+      * {
+        font-family: 'Roboto';
+        margin: 0px;
+        padding: 0px;
+        line-height: 150%;
+        letter-spacing: .3px;
+      }
+
+      a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #C2A561;
+      }
+    </mj-style>
+    <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+      .golden-border {
+        border: 2px solid #C2A561;
+        border-radius: 5px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#69645E" padding-bottom="25px" padding-top="25px">
+      <mj-column>
+        <mj-image width="200px" padding-bottom="0" padding-top="0" src="https://mail-img.artgorka.com/wmk-mail-img/logo.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding-bottom="0" padding-top="0">
+      <mj-column>
+        <mj-text color="#69645E" padding-bottom="20px" padding-top="40px" align='center'>
+          <h1>
+            Восстановление пароля
+          </h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding-bottom="0" padding-top="0">
+      <mj-column>
+        <mj-text color="#69645E" font-size='16px' padding-top="0px" padding-bottom="30px" align='center'>
+          <p>
+            <b>USER</b>, вы отправили запрос на восстановление вашего пароля в приложении «МАРТ».
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding-top="0" padding-bottom="30px"  padding-left="25px" padding-right="25px">
+      <mj-column css-class='golden-border'>
+        <mj-spacer height="25px" />
+        <mj-text color="#69645E" font-size='16px' padding-top="0px" padding-bottom="15px" align="center">
+          <p>
+            Чтобы сменить пароль, нажмите на кнопку:
+          </p>
+
+        </mj-text>
+        <mj-button background-color="#C2A561" color="white" width='300px' font-size='16px' font-weight='500' text-transform="uppercase" padding-top="0px" padding-bottom="30px">
+          Восстановить пароль
+        </mj-button>
+        <mj-text color="#69645E" font-size='16px' padding-top="0px" padding-bottom="10px" align="center">
+          <p>
+            Или скопируйте ссылку в браузер и перейдите по ней:
+          </p>
+
+        </mj-text>
+        <mj-text color="#69645E" font-size='16px' padding-top="0px" padding-bottom="10px" align="center">
+          <a href="google.com">
+            Или скопируйте ссылку в браузер и перейдите по ней:
+          </a>
+        </mj-text>
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section>
+   <mj-section background-color="#fff"  padding-top="0" padding-bottom="0" >
+      <mj-column>
+       <mj-text color="#69645E" font-size='14px' padding-top="0px" padding-bottom="50px">
+          <p>
+            <b>*</b>Если вы не отправляли запрос на восстановление пароля,<br> <b>проигнорируйте данное сообщение.</b>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

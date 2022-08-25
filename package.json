@@ -1,0 +1,41 @@
+{
+  "name": "wmk-backend",
+  "version": "1.0.0",
+  "description": "Backend часть проекта приложения, для компании ВМК",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programm-papa/wmk-backend.git"
+  },
+  "author": "@programm_papa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programm-papa/wmk-backend/issues"
+  },
+  "homepage": "https://github.com/programm-papa/wmk-backend#readme",
+  "_moduleAliases": {
+    "@config": "./config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "google-spreadsheet": "^3.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "password-generator": "^2.3.2"
+  }
+}
